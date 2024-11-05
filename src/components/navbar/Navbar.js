@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600'>
 
       <div>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className='h-20 w-20 rounded-full bg-bodyColor'/>
       </div>
 
       <div>
